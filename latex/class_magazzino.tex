@@ -1,0 +1,130 @@
+\hypertarget{class_magazzino}{}\doxysection{Magazzino Class Reference}
+\label{class_magazzino}\index{Magazzino@{Magazzino}}
+
+
+la classe rappresenta un magazzino, l\textquotesingle{}insieme di computer  
+
+
+
+
+{\ttfamily \#include $<$Magazzino.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_magazzino_a37bffde449de9bfff667fc70dee06414}\label{class_magazzino_a37bffde449de9bfff667fc70dee06414}} 
+\mbox{\hyperlink{class_magazzino_a37bffde449de9bfff667fc70dee06414}{Magazzino}} (void)
+\begin{DoxyCompactList}\small\item\em Costruttore predefinito. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_magazzino_ab949f33063419968e218aa4556ca30fb}{aggiungi\+Computer}} (\mbox{\hyperlink{class_computer}{Computer}} pc, int codice)
+\begin{DoxyCompactList}\small\item\em Aggiunge un PC. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_magazzino_a9b77d6c56acfcb36b1705be5ab80bace}{elimina}} (int codice)
+\begin{DoxyCompactList}\small\item\em Elimina un PC. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_magazzino_aa873dba4a25f9d0dc8733c701d3a533d}{ricerca\+Codice}} (int codice)
+\begin{DoxyCompactList}\small\item\em Ricerca un PC utilizzando il codice. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_magazzino_ab54a9b1330c94ee464cc0ca79d261105}{ricerca\+Migliore\+Velocita}} (void)
+\begin{DoxyCompactList}\small\item\em Ricerca il computer con la miglior velocità return PC con la maggior velocità \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_magazzino_a2b32555cdd37f4e95e4467b28307e708}{ricerca\+Migliore\+Dimensione}} (void)
+\begin{DoxyCompactList}\small\item\em Ricerca il computer con più memoria RAM return PC con la maggior dimensione. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_magazzino_a90ac7070eecfd144ee19892e8627b3bd}{ricerca\+Migliore\+Disco}} (void)
+\begin{DoxyCompactList}\small\item\em Ricerca il computer con più memoria ROM return PC con la maggior dimensione della memoria ROM. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_magazzino_ae6feade9cf3dcc4c38ac1e93573afadd}{stampa}} ()
+\begin{DoxyCompactList}\small\item\em Stampa del catalogo return PC e le sue carazzeristiche. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+la classe rappresenta un magazzino, l\textquotesingle{}insieme di computer 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_magazzino_ab949f33063419968e218aa4556ca30fb}\label{class_magazzino_ab949f33063419968e218aa4556ca30fb}} 
+\index{Magazzino@{Magazzino}!aggiungiComputer@{aggiungiComputer}}
+\index{aggiungiComputer@{aggiungiComputer}!Magazzino@{Magazzino}}
+\doxysubsubsection{\texorpdfstring{aggiungiComputer()}{aggiungiComputer()}}
+{\footnotesize\ttfamily int Magazzino\+::aggiungi\+Computer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_computer}{Computer}}}]{pc,  }\item[{int}]{codice }\end{DoxyParamCaption})}
+
+
+
+Aggiunge un PC. 
+
+\textbackslash{} fn aggiungi\+Computer 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em pc} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em codice} & return pc \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_magazzino_a9b77d6c56acfcb36b1705be5ab80bace}\label{class_magazzino_a9b77d6c56acfcb36b1705be5ab80bace}} 
+\index{Magazzino@{Magazzino}!elimina@{elimina}}
+\index{elimina@{elimina}!Magazzino@{Magazzino}}
+\doxysubsubsection{\texorpdfstring{elimina()}{elimina()}}
+{\footnotesize\ttfamily int Magazzino\+::elimina (\begin{DoxyParamCaption}\item[{int}]{codice }\end{DoxyParamCaption})}
+
+
+
+Elimina un PC. 
+
+\textbackslash{} fn elimina 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em codice} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_magazzino_aa873dba4a25f9d0dc8733c701d3a533d}\label{class_magazzino_aa873dba4a25f9d0dc8733c701d3a533d}} 
+\index{Magazzino@{Magazzino}!ricercaCodice@{ricercaCodice}}
+\index{ricercaCodice@{ricercaCodice}!Magazzino@{Magazzino}}
+\doxysubsubsection{\texorpdfstring{ricercaCodice()}{ricercaCodice()}}
+{\footnotesize\ttfamily void Magazzino\+::ricerca\+Codice (\begin{DoxyParamCaption}\item[{int}]{codice }\end{DoxyParamCaption})}
+
+
+
+Ricerca un PC utilizzando il codice. 
+
+\textbackslash{} fn ricerca\+Codice 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em codice} & return pc \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_magazzino_a2b32555cdd37f4e95e4467b28307e708}\label{class_magazzino_a2b32555cdd37f4e95e4467b28307e708}} 
+\index{Magazzino@{Magazzino}!ricercaMiglioreDimensione@{ricercaMiglioreDimensione}}
+\index{ricercaMiglioreDimensione@{ricercaMiglioreDimensione}!Magazzino@{Magazzino}}
+\doxysubsubsection{\texorpdfstring{ricercaMiglioreDimensione()}{ricercaMiglioreDimensione()}}
+{\footnotesize\ttfamily void Magazzino\+::ricerca\+Migliore\+Dimensione (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Ricerca il computer con più memoria RAM return PC con la maggior dimensione. 
+
+\textbackslash{} fn ricerca\+Migliore\+Dimensione \mbox{\Hypertarget{class_magazzino_a90ac7070eecfd144ee19892e8627b3bd}\label{class_magazzino_a90ac7070eecfd144ee19892e8627b3bd}} 
+\index{Magazzino@{Magazzino}!ricercaMiglioreDisco@{ricercaMiglioreDisco}}
+\index{ricercaMiglioreDisco@{ricercaMiglioreDisco}!Magazzino@{Magazzino}}
+\doxysubsubsection{\texorpdfstring{ricercaMiglioreDisco()}{ricercaMiglioreDisco()}}
+{\footnotesize\ttfamily void Magazzino\+::ricerca\+Migliore\+Disco (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Ricerca il computer con più memoria ROM return PC con la maggior dimensione della memoria ROM. 
+
+\textbackslash{} fn ricerca\+Migliore\+Disco \mbox{\Hypertarget{class_magazzino_ab54a9b1330c94ee464cc0ca79d261105}\label{class_magazzino_ab54a9b1330c94ee464cc0ca79d261105}} 
+\index{Magazzino@{Magazzino}!ricercaMiglioreVelocita@{ricercaMiglioreVelocita}}
+\index{ricercaMiglioreVelocita@{ricercaMiglioreVelocita}!Magazzino@{Magazzino}}
+\doxysubsubsection{\texorpdfstring{ricercaMiglioreVelocita()}{ricercaMiglioreVelocita()}}
+{\footnotesize\ttfamily void Magazzino\+::ricerca\+Migliore\+Velocita (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Ricerca il computer con la miglior velocità return PC con la maggior velocità 
+
+\textbackslash{} fn ricerca\+Migliore\+Velocita \mbox{\Hypertarget{class_magazzino_ae6feade9cf3dcc4c38ac1e93573afadd}\label{class_magazzino_ae6feade9cf3dcc4c38ac1e93573afadd}} 
+\index{Magazzino@{Magazzino}!stampa@{stampa}}
+\index{stampa@{stampa}!Magazzino@{Magazzino}}
+\doxysubsubsection{\texorpdfstring{stampa()}{stampa()}}
+{\footnotesize\ttfamily void Magazzino\+::stampa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Stampa del catalogo return PC e le sue carazzeristiche. 
+
+\textbackslash{} fn stampa 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_magazzino_8h}{Magazzino.\+h}}\item 
+Magazzino.\+cpp\end{DoxyCompactItemize}
